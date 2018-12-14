@@ -47,6 +47,7 @@ npm install nuxt-google-optimize --save
     // pushPlugin: true,
     // externalExperimentsSrc: 'https://my.experi.ment/list',
     // cookieDomain: '.experi.ment', // must valid domain/subdomain
+    // useFetch: true, // use fetch() if possible for preload to work properly
   }
 }
 ```
